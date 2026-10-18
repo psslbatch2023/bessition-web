@@ -34,3 +34,15 @@ footer{background:#033f2f;padding:41px 0;color:#d3e8df}.footer-inner{display:gri
 .energy-illustration.discharge .energy-connector.second .energy-dot{animation-direction:normal}
 .energy-illustration.discharge .energy-connector:not(.second) .energy-line,
 .energy-illustration.charge .energy-connector.second .energy-line{background:#d6e7e3}
+
+/* === INFOGREEN 2026 update: new poster/assets, cleaner typography === */
+.hero .hero-title-updated{font-size:clamp(56px,6.4vw,94px);line-height:1.04;letter-spacing:-.07em;margin-bottom:19px}
+.hero-lead-updated{font-size:clamp(17px,1.42vw,21px);font-weight:600;line-height:1.6;max-width:570px;color:#245e50}
+.hero-lead-updated strong{font-weight:850}
+.hero-art img{height:min(680px,66vw);width:100%;max-width:100%;max-height:none;object-fit:contain;transform:none}
+.illustration-panel>img{height:100%;width:100%;max-height:680px;max-width:100%;transform:none;object-fit:contain;object-position:center}
+.modal-image{background:#fff}
+.modal-image img{display:block;width:100%;max-width:none;height:auto}
+@media(max-width:1050px){.hero-art img{height:min(630px,70vw);width:100%;transform:none}.illustration-panel>img{width:100%;height:100%;transform:none}}
+@media(max-width:760px){.hero .hero-title-updated{font-size:clamp(52px,12vw,78px);margin-bottom:15px}.hero-lead-updated{font-size:16px;line-height:1.55}.hero-art img{height:auto;width:100%;max-height:560px;transform:none}.illustration-panel{aspect-ratio:1.02;min-height:360px}.illustration-panel>img{width:100%;height:100%;max-width:100%;transform:none;object-fit:contain}}
+@media(max-width:410px){.hero .hero-title-updated{font-size:52px}.hero-art img{width:100%;transform:none}.illustration-panel{min-height:315px}}
